@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main: prints the char in the printf function
+ * main: prints a text
  *
  * Description: using the main function
  * this program prints "with proper grammar, but the outcome is a piece of art"
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
