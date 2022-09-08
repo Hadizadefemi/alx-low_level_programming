@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main: Entry point
+ * main: prints the char in the printf function
  *
  * Description: using the main function
  * this program prints "with proper grammar, but the outcome is a piece of art"
