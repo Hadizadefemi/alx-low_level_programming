@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * main: prints a text
+ * main - prints the srting in the main function
  *
  * Description: using the main function
- * this program prints "with proper grammar, but the outcome is a piece of art"
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 int main(void)
 {
