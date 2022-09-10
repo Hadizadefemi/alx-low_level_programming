@@ -8,7 +8,7 @@
 <p><b>6-print_numberz.c</b> is a C program that prints all single digit numbers of base 10 starting from 0</p>
 <p><b>7-print_tebahpla.c</b> is a C program that  prints the lowercase alphabet in reverse</p>
 <p><b>8-print_base16.c</b> is a C progam that prints all the numbers of base 16 in lowercase</p>
-<p><b></b></p>
-<p><b></b></p>
-<p><b></b></p>
-<p><b></b></p>
+<p><b>9-print_comb.c</b> is a C program that prints all possible combinations of single-digit numbers.</p>
+<p><b>100-print_comb3.c</b> is a C program that prints all possible different combinations of two digits.</p>
+<p><b>101-print_comb4.c</b> is a C program that prints all possible different combinations of three digits</p>
+<p><b>102-print_comb5.c</b> is a C program that prints all possible combinations of two two-digit numbers.</p>
