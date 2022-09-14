@@ -1,26 +1,50 @@
 #include <stdio.h>
+
 /**
- * main - main block
- * Description: computes and prints the sum of all the multiples of 3 or
- * 5 below 1024 (excluded), followed by a new line
- * Return: 0
+ * main - program that prints the first 98 Fibonacci numbers
+ *next line
+ * Return: Always 0
  */
 int main(void)
 {
-	int i = 0;
-	unsigned long int a = 0, b = 1, next = 0;
+	int k, boolean, boolean1;
+	long int num1, num2, fn, fn1, num11, num22;
 
-	while (i < 98)
+	num1 = 1;
+	num2 = 2;
+	boolean = boolean1 = 1;
+	printf("%ld, %ld", num1, num2);
+	for (k = 0; k < 96; k++)
 	{
-		next = a + b;
-		a = b;
-		b = next;
-		printf("%lu", next);
-
-		if (i < 97)
-			printf(", ");
-		i++;
+		if (boolean)
+		{
+			fn = num1 + num2;
+			printf(", %ld", fn);
+			num1 = num2;
+			num2 = fn;
+		}
+		else
+		{
+			if (boolean1)
+			{
+				num11 = num1 % 1000000000;
+				num22 = num2 % 1000000000;
+				num1 = num1 / 1000000000;
+				num2 = num2 / 1000000000;
+				boolean1 = 0;
+			}
+			fn1 = (num11 + num22);
+			fn = num1 + num2 + (fn1 / 1000000000);
+			printf(", %ld", fn);
+			printf("%ld", fn1 % 1000000000);
+			num1 = num2;
+			num11 = num22;
+			num2 = fn;
+			num22 = (fn1 % 1000000000);
+		}
+		if (((num1 + num2) < 0) && boolean == 1)
+			boolean = 0;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
