@@ -1,9 +1,12 @@
-include "main.h"
+#include "main.h"
 
 /**
- * print_line - draws a straight line
- * @n: number of tines _ should be printed
+ * print_line - prints a line
+ * @n: variable
+ *
+ * Return: 0
  */
+
 void print_line(int n)
 {
 	int a = 0;
