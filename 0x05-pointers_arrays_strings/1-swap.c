@@ -3,8 +3,9 @@
 /**
  * swap_int - is a function that
  * swaps two integers
- * @a - first integer
- * @b - second integer
+ * @*a - first input pointer
+ * @*b - second input pointer
+ *
  * Return: no return
  */
 
