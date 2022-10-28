@@ -3,7 +3,7 @@
 This Project was done during Full Stack Software Engineering studies at ALX school The aim is to learn about manipulating bits and using bitwise operators in **C language**
 
 ## Technologies
-* C files are complied using `gcc`
+* C files are complied using `gcc 9.4.0`
 * C files are written according to C90 standard
 * tested on Ubuntu 20.04 LTS
 
