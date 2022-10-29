@@ -3,9 +3,9 @@
 The aim of this is to learn about automatic and dynamic allocation in **C language**.
 
 ## Technologies
-* C files are compiled using `gcc 4.8.4`
+* C files are compiled using `gcc 9.4.0`
 * C files are written according to the C90 standard
-* Tested on Ubuntu 14.04 LTS
+* Tested on Ubuntu 20.04 LTS
 
 ## Files
 All of the following files are programs written in C:
