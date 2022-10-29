@@ -3,9 +3,9 @@
 This Project was done during Full Stack Software Engineering studies at ALX school. The aim of this is to learn about how to include header files and macros in **C language**.
 
 ## Technologies
-* Cfiles are complied using `gcc 4.8.4`
+* Cfiles are complied using `gcc 9.4.0`
 * Cfiles are written according to C90 standard
-* tested on Ubuntu 14.04 LTS
+* tested on Ubuntu 20.04 LTS
 
 ## Files
 All of the following files are programs written in C:
